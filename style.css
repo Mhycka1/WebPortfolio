@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+/* Style the content container */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the title box */
+.title-box {
+    background-color: purple;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Style the info box */
+.info-box {
+    background-color: purple;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    max-width: 600px; /* Set your desired maximum width */
+}
+
+/* Style the image */
+.text-box img {
+    border: 5px solid purple;
+}
